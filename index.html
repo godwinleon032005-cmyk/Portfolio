@@ -5,45 +5,68 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
 <body>
+
+<div class="header-div">
+<!--------    Header Div    -------->
     <div class="header">
+        <p class="name">Godwin Leon</p>
         
-        <a href="Index.html" style="text-decoration: none;"><p class="headerbutton" id="homebutton">Home</p></a>
-        <a href="About.html" style="text-decoration: none;"><p class="headerbutton">About</p></a>
-        <a href="Projects.html" style="text-decoration: none;"><p class="headerbutton">Projects</p></a>
-
-        <button class="contactme">CONTACT  ME</button>
-
-
-
-         <div class="try"><label class="switch">
-             <input type="checkbox" id="darkToggle">
-             <span class="slider"></span>
-         </label>
-         </div>
-    </div>
+          <a href="Index.html" class="href" ><p class="headerbutton" id="homebutton"><b>Home</b></p></a>
+          <a href="About.html" class="href"><p class="headerbutton">About</p></a>
+          <a href="Projects.html" class="href"><p class="headerbutton">Projects</p></a>
+          <a href="contactme.html" class="href"><p class="headerbutton" id="contactme">Contact Me</p></a>
+</div></div>
 
 
+<div class="main-div">
+      <div class="main-left">
 
-    <div class="section1">
-        <p class="title">Web Developer</p>
-        <p class="skilllist">{Java Script,React,CSS,AI Automation}</p>
+          <div class="main-left-section-1">
+
+              <p class="web-development">Web Development </p>
+              <p class="skills">{Script,React,CSS,AI Automation}</p>
+              <p class="content">Specializing in React and next.js <br>I leverage cutting edge Technologies<br> to
+                 bring web projects to life</p>
+
+          </div>
+
+          <div class="main-left-section-2">
+              <button class="my-projects"> See My Works </button>
+
+              <button class="download-cv">Download CV</button>
+
+          </div>
+      </div>
+
+      <div class="main-right">
+
+          <img class="avatar" src="images/avatar1.png"/>
+
+
+      </div>
+
+</div>
+
+<div class="seperator">
+
+    <p class="seperator-list">HTML</p>
+    <p class="seperator-list">HTML</p>
+    <p class="seperator-list">HTML</p>
+    <p class="seperator-list">HTML</p>
+    <p class="seperator-list">HTML</p>
+    <p class="seperator-list">HTML</p>
+    <p class="seperator-list">HTML</p>
+
+
+</div>
 
 
 
+<div class="second-div"> 
 
-    </div>
+</div>
 
-
-
-
-<script>
-  const toggle = document.getElementById("darkToggle");
-
-  toggle.addEventListener("change", () => {
-    document.body.classList.toggle("dark", toggle.checked);
-  });
-</script>
-
+        
 
 
 </body>
