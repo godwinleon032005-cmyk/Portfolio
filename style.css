@@ -1,5 +1,5 @@
 .header-div{
-  background-image: url(/purple-background.jpg);
+  background-image: url(purple-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -55,7 +55,7 @@
 }
 
 .main-div{
-  background-image: url(/purple-background.jpg);
+  background-image: url(purple-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -171,5 +171,6 @@
   background-size:cover;
   height: 100%;
 }
+
 
 
